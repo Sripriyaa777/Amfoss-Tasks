@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <style>
+        html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige; 
+}
+
+.checkout-container {
+    width: 70%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f3ebeb;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+        
+        .checkout-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+        .checkout-item img {
+            width: 65px;
+            height: 65px;
+            object-fit: contain;
+            margin-right: 10px;
+        }
+        .checkout-summary {
+            margin-top: 20px;
+        }
+        .checkout-summary div {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .checkout-total {
+            font-weight: bold;
+            text-align: right;
+        }
+        .proceed-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="checkout-container">
+        <h1>Check-out</h1>
+        <div id="cart-items"></div>
+        <div class="checkout-summary">
+            <div id="shipping-fee"></div>
+            <div id="total-tax"></div>
+            <div id="total-price" class="checkout-total"></div>
+        </div>
+        <a href="#" class="proceed-button">Proceed to Pay</a>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+            const cartContainer = document.getElementById('cart-items');
+            const totalPriceElement = document.getElementById('total-price');
+            const shippingFeeElement = document.getElementById('shipping-fee');
+            const totalTaxElement = document.getElementById('total-tax');
+
+            let totalPrice = 0;
+            const shippingFee = 5.00; 
+            const taxRate = 0.08; 
+
+            cartItems.forEach(item => {
+                const itemElement = document.createElement('div');
+                itemElement.className = 'checkout-item';
+                itemElement.innerHTML = `
+                    <div>
+                        <img src="${item.image}" alt="${item.title}">
+                        <span>${item.title}</span>
+                    </div>
+                    <span>$${item.price.toFixed(2)}</span>
+                `;
+                cartContainer.appendChild(itemElement);
+                totalPrice += item.price;
+            });
+
+            const totalTax = totalPrice * taxRate;
+            const finalTotalPrice = totalPrice + shippingFee + totalTax;
+
+            shippingFeeElement.innerHTML = `<span>Shipping Fee:</span><span>$${shippingFee.toFixed(2)}</span>`;
+            totalTaxElement.innerHTML = `<span>Total Tax (8%):</span><span>$${totalTax.toFixed(2)}</span>`;
+            totalPriceElement.innerHTML = `Total Price: $${finalTotalPrice.toFixed(2)}`;
+        });
+    </script>
+</body>
+</html>
