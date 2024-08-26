@@ -10,37 +10,37 @@ The Django Weather App is a web application that allows users to view the curren
 Follow these steps to set up and run the Django Weather App:
 1. Clone the Repository
 
-   ```
+   ```bash
    git clone https://github.com/Kalpana98/Weather-App.git
-   ```
-3. Navigate to the Project Directory
-
-   ```
-   cd Weather-App/My_Weather_Webapp
-   ```
-5.  Create and Activate a Virtual Environment
    
-   ```
+2. Navigate to the Project Directory
+
+   ```bash
+   cd Weather-App/My_Weather_Webapp
+   
+3. Create and Activate a Virtual Environment
+   
+   ```bash
    python -m venv env
    source env/bin/activate
-   ```
+   
 4. Install the Dependencies
 
    ```
    pip install -r requirements.txt
    ```
-6.  Apply Migrations
+5. Apply Migrations
    
-   ```
-     python manage.py makemigrations
-     python manage.py migrate
-  ```
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+  
    
 6. Run the Development Server
-
-   ```
-   python manage.py runserver
-   ```
+```
+python manage.py runserver
+```
+   
    
    
 8. Access the Application
