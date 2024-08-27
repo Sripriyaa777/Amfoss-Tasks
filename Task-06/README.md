@@ -12,7 +12,7 @@ A web application designed to deliver real-time weather updates for any city of 
 ## Instructions And Useage
 Follow these steps to run :
 
-1. Open the weather application from the link `https://anantagg.github.io/Weather-App/`
+1. Open the weather application from the link [https://anantagg.github.io/Weather-App/](url)
 2. Grant permission for the app to access your location when prompted.
 3. The app will display the current weather information for your area.
 4. To search for weather data by city name, enter the city name in the designated search bar and press Enter or click the search button.
