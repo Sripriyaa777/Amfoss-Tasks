@@ -5,8 +5,8 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, ConversationHandler, CallbackQueryHandler
 from docx import Document
 from io import BytesIO
-BOT_TOKEN = "7544560138:AAFcOSu2AZisuKlM0dDUiWsgOi9Wa8LMa4Q"
-API_KEY = "AIzaSyCOaIw53eXgEJU9DC-GuUqM3qftyjLosXw"
+BOT_TOKEN = "enter your bot token here"
+API_KEY = "enter you google book API here"
 ASK_GENRE = 3
 ASK_BOOK_NAME = 4
 READING_LIST_FILE = "reading_list.docx"
