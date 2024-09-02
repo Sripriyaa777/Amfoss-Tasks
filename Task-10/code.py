@@ -60,10 +60,10 @@ def stitch_images(image_folder):
         last_position = position
         last_color = color
     
-    output_path = os.path.join(image_folder, 'stitched_image.png')
+    output_path = os.path.join(image_folder, 'stitched_image.png') # The final image will be saved in the (image_folder) as stitched_image.png
     stitched_image.save(output_path)
     print(f"Stitched image saved as {output_path}")
 
 
-image_folder = '/home/sripriya-p/Operation-Pixel-Merge/assets'  
+image_folder = '/home/sripriya-p/Operation-Pixel-Merge/assets'  #  path of folder containing your images.
 stitch_images(image_folder)
