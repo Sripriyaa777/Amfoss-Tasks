@@ -19,17 +19,17 @@ All the tasks were really exciting and thrilling to work on. Even tho there were
 
 | Task List | Description | Status |
 | :-:       | :-:         | :-:    |
-| Task-00 | Install Linux | Completed |
-| Task-01|           |      |
-| Task -02| Terminal Chaos | Completed |
-| Task-03| Hello, World! | Completed |
-| Task-04| Gopal and his PagePal | Completed|
-| Task-05| TerminalTrolly | Completed|
-| Task-06| OpenDocs | Completed |
-| Task-07| Pirate's Dilemma | Completed|
-| Task-08| Blog Burst | Completed|
+| [Task-00](https://github.com/Sripriyaaa777/Amfoss-Tasks/tree/main/Task-00) | Install Linux | Completed |
+| Task-01|   Type Maestro        |      |
+| [Task -02](https://github.com/Sripriyaaa777/Amfoss-Tasks/tree/main/Task-02)| Terminal Chaos | Completed |
+| [Task-03](https://github.com/Sripriyaaa777/Amfoss-Tasks/tree/main/Task-03)| Hello, World! | Completed |
+| [Task-04](https://github.com/Sripriyaaa777/Amfoss-Tasks/tree/main/Task-04)| Gopal and his PagePal | Completed|
+| [Task-05](https://github.com/Sripriyaaa777/Amfoss-Tasks/tree/main/Task-05)| TerminalTrolly | Completed|
+| [Task-06](https://github.com/Sripriyaaa777/Amfoss-Tasks/tree/main/Task-06)| OpenDocs | Completed |
+| [Task-07](https://github.com/Sripriyaaa777/Amfoss-Tasks/tree/main/Task-07)| Pirate's Dilemma | Completed|
+| [Task-08](https://github.com/Sripriyaaa777/Amfoss-Tasks/tree/main/Task-08)| Blog Burst | Completed|
 | Task-09| HERO-DEX! |     |
-| Task-10|  Operation Pixel Merge | Completed|
+| [Task-10](https://github.com/Sripriyaaa777/Amfoss-Tasks/tree/main/Task-10)|  Operation Pixel Merge | Completed|
 
 
 
