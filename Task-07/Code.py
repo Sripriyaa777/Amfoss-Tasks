@@ -5,12 +5,12 @@ import os
 import hashlib
 
 BASE_URL = "https://www.opensubtitles.org"
-IMDB_API_URL = "https://www.omdbapi.com/"
+OMDB_API_URL = "https://www.omdbapi.com/"
 API_KEY = "2bdc52e0"  # OMDb API key
 
 def get_imdb_id_from_url(url):
     movie_name = url.split('/')[-1].replace('.mpeg4', '').replace('-', ' ')
-    response = requests.get(f"{IMDB_API_URL}?t={movie_name}&apikey={API_KEY}")
+    response = requests.get(f"{OMDB_API_URL}?t={movie_name}&apikey={API_KEY}")
     if response.status_code == 200:
         data = response.json()
         return data.get("imdbID")
