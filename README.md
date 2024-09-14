@@ -1,26 +1,26 @@
 # Amfoss-Tasks
 
 ## Hi There!
-It's me Sripriya.Most of the time you can catch me getting excited for the smallest of things..I just love exploring and checking out new stuff,That's how i ended up here and i'm absolutely loving it.I realised i enjoy learning and programming world excites me. I'm also really into self-care and enjoy working out at the gym!
+It's me Sripriya. Most of the time you can catch me getting excited for the smallest of things..I just love exploring and checking out new stuff, That's how I ended up here and i'm absolutely loving it. I realized I enjoy learning and The programming world excites me. I'm also really into skin-care and enjoy working out at the gym!
 
 ## WHY SHOULD WE CHOOSE YOU?
-Having me on the team would be a great choice because I am dedicated and work consistently to completing my tasks,I'm guienuely interested in exploring and enhancing my skills and,i want to learn and make use of every oppurtumity the team has to offer.
+Having me on the team would be a great choice, as I have a genuine passion for developing my skills and constantly improving my abilities. I am eager to learn and take full advantage of every opportunity the club presents. My dedication ensures that I consistently complete my tasks effectively.
 
 ## WHAT ARE YOUR GOALS FOR THE NEXT 6 MONTHS? HOW WILL YOU ACCOMPLISH THEM?
-In next 6 months,My main motive is to improve my problem-solving skills,by getting hands on challenging projects, joining coding competitions, and consistently expanding my knowledge through online courses and resources. Also,taking my acadamics along side by being consistent in daily class works.
+Over the next six months, my primary goal is to enhance my problem-solving abilities by engaging in various projects, participating in coding competitions, practicing  challenging LeetCode problems, and continuously learning through online courses and resources. Additionally, I will maintain my academic performance by staying consistent with my daily classwork.
 
 ## HOW WILL YOU CONTRIBUTE BACK TO THE CLUB?
-I'm willing to dedicate my time to completing all the tasks and projects the club offers. I will also put in the effort to  improve my skills and understandings. i love teaching and sharing my knowledge thats how i myself improve my understanding,I really enjoy group studies and discussions.
+I am committed to investing my time in finishing all the tasks and projects provided by the club. Additionally, I will strive to enhance my skills and deepen my understanding. I love teaching and sharing my knowledge, as it helps me grow in my own understanding. I truly enjoy participating in group studies and engaging in discussions.
 
 ## WHAT ARE YOUR THOUGHTS AND FEEDBACK ON THE PRAVESHAN SELECTION PROCESS?
-All the tasks were really exciting and thrilling to work on. Even tho there were moments when it felt overwhelming and brought me to tears,which just made me more determined. At the end of the day, I was able to explore topics I had always been curious about. And the  joy of finally seeing the results is truly heartwarming. Overall, it was a lot of fun and a great learning experience for me.
+All the tasks were really engaging and exciting to work on. Although there were times when the pressure felt intense and brought me to tears, but it only fueled my determination further. In the end, I got to explore topics I’ve been curious about for ages, And The satisfaction of witnessing the final outcomes is genuinely uplifting. Overall, it was an enjoyable and enriching experience for me.
 
 # Task Status
 
 | Task List | Description | Status |
 | :-:       | :-:         | :-:    |
 | [Task-00](https://github.com/Sripriyaaa777/Amfoss-Tasks/tree/main/Task-00) | Install Linux | Completed |
-| Task-01|   Type Maestro        |      |
+| Task-01|   Type Maestro        |   Partially completed   |
 | [Task -02](https://github.com/Sripriyaaa777/Amfoss-Tasks/tree/main/Task-02)| Terminal Chaos | Completed |
 | [Task-03](https://github.com/Sripriyaaa777/Amfoss-Tasks/tree/main/Task-03)| Hello, World! | Completed |
 | [Task-04](https://github.com/Sripriyaaa777/Amfoss-Tasks/tree/main/Task-04)| Gopal and his PagePal | Completed|
